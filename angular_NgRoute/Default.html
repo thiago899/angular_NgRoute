@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html ng-app="blog">
+<head>
+    <meta charset="utf-8" />
+    <title>AngularJS - ngRoute</title>
+    <script src="lib/angular-route.js"></script>
+    <script src="lib/angular.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h3>Macoratti .net - Quase tudo para Visual Basic</h3>
+            <nav>
+                <a href="#!/">Home</a>
+                <a href="#!/artigos">Artigos</a>
+                <a href="#!/sobre">Sobre</a>
+            </nav>
+        </header>
+    </div>
+
+    <div ng-view> <!--conteúdo--></div>
+
+    <br />
+    <br />
+    <br />
+    <hr />
+    <footer>Macoratti .net - 2018</footer>
+
+</body>
+</html>
