@@ -71,7 +71,7 @@
     <Content Include="lib\angular-route.js" />
     <Content Include="lib\angular.js" />
     <Content Include="lib\bootstrap.css" />
-    <Content Include="Default.html" />
+    <Content Include="index.html" />
     <Content Include="views\sobre.html" />
     <Content Include="views\home.html" />
     <Content Include="views\artigos.html" />
